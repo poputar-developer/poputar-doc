@@ -1,0 +1,122 @@
+{
+    "type": "CHORD",  //类型：类型分为 CHORD 和 TONIC（CHORD:和弦弹奏  TONIC:主音弹奏）
+    "title": "test",  //歌曲名称
+    "bpm": 60,        //歌曲速度
+    "beatFlag": "4:4",//歌曲拍数
+    "plays": [        //循环模式
+              {
+              "p_index": 1, //循环索引
+              "range": "1:4"//循环范围
+              },
+              {
+              "p_index": 2,
+              "range": "1:4"
+              },
+              {
+              "p_index": 3,
+              "range": "1:4"
+              }
+              ],
+    "sections": [        //小节信息
+                 {  
+                 "s_index": 1, //小节索引
+                 "tonics": [	//主音信息
+                            {
+                            "t_index": 1,	//主音索引
+                            "note": "0+",	//主音声音
+                            "length": 1		//长度
+                            },
+                            {
+                            "t_index": 2,
+                            "note": "3",
+                            "length": 0.5
+                            },
+                            {
+                            "t_index": 3,
+                            "note": "5",
+                            "length": 0.5
+                            },
+                            {
+                            "t_index": 4,
+                            "note": "5",
+                            "length": 1
+                            },
+                            {
+                            "t_index": 5,
+                            "note": "5",
+                            "length": 0.5
+                            },
+                            {
+                            "t_index": 6,
+                            "note": "3",
+                            "length": 0.5
+                            }
+                            ],
+                 "beats": [
+                           {
+                           "b_index":1,	//和弦索引
+                           "chord": "C", //和弦类型
+                           "length": 1, //长度
+                           "play": "6@|@5@|@4@|@3@|@2@|@1", //拨弦方式
+                           "string": "1:0@|@2:1"  //特殊拨弦
+                           },
+                           {
+                            "b_index":2,
+                           "chord": "C",
+                           "length": 0.5,
+                           "play": "4@|@3@|@2@|@1",
+                           "string": ""
+                           },
+                           {
+                            "b_index":3,
+                           "chord": "C",
+                           "length": 0.5,
+                           "play": "1@|@2@|@3@|@4",
+                           "string": ""
+                           },
+                           {
+                            "b_index":4,
+                           "chord": "C",
+                           "length": 0.5,
+                           "play": "",
+                           "string": ""
+                           },
+                           {
+                            "b_index":5,
+                           "chord": "C",
+                           "length": 0.5,
+                           "play": "1@|@2@|@3@|@4",
+                           "string": ""
+                           },
+                           {
+                            "b_index":6,
+                           "chord": "C",
+                           "length": 0.25,
+                           "play": "4@|@3@|@2@|@1",
+                           "string": ""
+                           },
+                           {
+                            "b_index":7,
+                           "chord": "C",
+                           "length": 0.25,
+                           "play": "1@|@2@|@3@|@4",
+                           "string": ""
+                           },
+                           {
+                            "b_index":8,
+                           "chord": "C",
+                           "length": 0.25,
+                           "play": "4@|@3@|@2@|@1",
+                           "string": ""
+                           },
+                           {
+                            "b_index":9,
+                           "chord": "C",
+                           "length": 0.25,
+                           "play": "1@|@2@|@3@|@4",
+                           "string": ""
+                           }
+                           ]
+                 }
+                 ]
+}

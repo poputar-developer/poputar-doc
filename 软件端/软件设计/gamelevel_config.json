@@ -1,0 +1,63 @@
+{
+    "levels": [
+               {
+               "level": 1,
+               "title":"入门学习",
+               "nodes": [
+                         {
+                         "node": 1,
+                         "type":"S",
+                         "music": "xiaoxingxing"
+                         },
+                         {
+                         "node": 2,
+                         "type":"F",
+                         "music": "test_2"
+                         },
+                         {
+                         "node": 3,
+                         "type":"S",
+                         "music": "test_"
+                         }
+                         ]
+               },
+               {
+               "level": 2,
+               "title":"两指和弦",
+               "nodes": [
+                         {
+                         "node": 1,
+                         "type":"C",
+                         "music": "chord_c"
+                         },
+                         {
+                         "node": 2,
+                         "type":"C",
+                         "music": "chord_am"
+                         },
+                         {
+                         "node": 3,
+                         "type":"C",
+                         "music": "chord_f"
+                         }
+                         ,
+                         {
+                         "node": 4,
+                         "type":"C",
+                         "music": "chord_g"
+                         },
+                         {
+                         "node": 5,
+                         "type":"S",
+                         "music": "chord_change4two"
+                         },
+                         {
+                         "node": 6,
+                         "type":"S",
+                         "music": "cunzai"
+                         }
+                         ]
+               }
+        
+               ]
+}
